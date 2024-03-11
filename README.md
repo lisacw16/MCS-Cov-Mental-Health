@@ -1,4 +1,4 @@
-# MCS-Cov-Mental-Health-
+# MCS-Cov-Mental-Health
 ## Overview
 This README File referrs to a program written to analyse Millennium Cohort Study data and is associated with a paper regarding young adult mental health in the United Kingdom during COVID-19. Relevant files referenced in this README include:
 - `CovidYAMH.Rproj`
