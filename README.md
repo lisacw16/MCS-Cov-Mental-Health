@@ -1,6 +1,6 @@
 # MCS-Cov-Mental-Health-
 ## Overview
-This README File has been found in a larger zip folder called `analysis_CovidYAMH`, which contains the following files, and require R software to open:
+This README File referrs to a program written to analyse Millennium Cohort Study data and is associated with a paper regarding young adult mental health in the United Kingdom during COVID-19. Relevant files referenced in this README include:
 - `CovidYAMH.Rproj`
 - `.RHistory`
 - `_targets.R`
@@ -17,7 +17,7 @@ This README File has been found in a larger zip folder called `analysis_CovidYAM
 
 The **user-made functions**, which provide the information required to clean and analyse the data, are stored in the folder, `R`. The`_targets.R` file contains pipeline specifications, which dictate which of these functions should be run, and when. 
 
-All the software packages that are needed to run the user-made functions are listed in the` _targets.R` file as part of the pipeline setup. You will need these packages downloaded before you are able to run the pipeline and a functional `.Rprofile` file to handle any library conflicts. This README file provides both the materials and the procedure required for downloading all necessary packages into your version of R. This document will also provide the information you need to enable the `.Rprofile` file to ensure smooth function running.
+All the software packages that are needed to run the user-made functions are listed in the` _targets.R` file as part of the pipeline setup. You will need these packages downloaded into R before you are able to run the pipeline and a functional `.Rprofile` file to handle any library conflicts. This README file provides both the materials and the procedure required for downloading all necessary packages into your version of R. This document will also provide the information you need to enable the `.Rprofile` file to ensure smooth function running.
 
 The user-made functions in the `R` folder read, clean, and analyse data from the Millennium Cohort Study (MCS) mainstage survey and special COVID-19 survey as well as from the Understanding Society (UKLHS) special COVID-19 survey. All of the data in the folders `MCS_data` and `UKLHS_data` has been removed due to data restrictions. You must download your own version of the data from the UK Data Service. This README file will provide further details on how to download the data and set up the workspace for your own computer. 
 
